@@ -3,8 +3,11 @@ import Menu from "./Menu";
 function Home(){
     return(
         <div>
-            <h1>Home </h1>
-            <Menu />
+            <img class="logo" src="./img/logo.png" alt="logo-solo" width={500} />
+            <div className="home">
+                <h1>Home </h1>
+                <Menu />
+            </div>
         </div>
     )
 }
